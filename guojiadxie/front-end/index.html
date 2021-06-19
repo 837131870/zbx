@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页|学习网首页</title>
+    <!-- 禁止检查当前域名 -->
+    <meta name="referrer" content="never">
+    <!-- 网站图标 -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- 初始化css文件：用来将所有浏览器中显示不一样的样式，变的一样 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入bootstrap -->
+    <!-- <link rel="stylesheet" href="./css/css_Z0y5YMb....9ajnY.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 当前文件的css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- 引入js的库 -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- 引入bootstrap.js，bootstrap的js需要依赖一个js库 -->
+    <script src="./js/bootstrap.js"></script>
+    <!-- <script src="./js/js_Mx5gd2vAFdp9qkz51...nuCqkI95WRV0.js"></script> -->
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="wrap navbar-default">
+        <div class="content">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="index.html">
+                            <img src="./images/logo.png" alt="" style="width: 136px;">
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="http://www.ouchn.edu.cn/">关于我们</a></li>
+                            <li><a href="http://www.ouchn.cn/">移动端下载</a></li>
+                        </ul>
+                        <!-- 登陆注册 -->
+                        <ul class="nav navbar-nav navbar-right login">
+                            <li><a href="login.html">登陆</a></li>
+                            <li><a href="register.html">注册</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide>img {
+            width: 100%;
+            height: 450px;
+        }
+
+        .swiper-button-prev {
+            left: 165px;
+        }
+
+        .swiper-button-next {
+            right: 165px;
+        }
+
+        .tonggao {
+            background-color: #F6F9FD;
+        }
+
+        .tonggao img {
+            width: 70px;
+            height: 70px;
+            margin-left: 20px;
+        }
+
+        .tonggao ul {
+            list-style-type: none;
+            float: left;
+            line-height: 25px;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 40px;
+        }
+
+        .tonggao ol {
+            float: left;
+            line-height: 25px;
+            margin-top: 10px;
+            margin-left: -20px;
+            margin-right: 40px;
+        }
+
+        .tonggao span {
+            float: right;
+
+        }
+
+        .tonggao a {
+            color: black;
+        }
+
+        .tonggao p {
+            line-height: 70px;
+        }
+
+        .nav h2 {
+            text-align: center;
+        }
+
+        .nav p {
+            text-align: center;
+        }
+
+        .nav ul a {
+            list-style-type: none;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .nav a li {
+            color: black;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+
+        .nav a span {
+            color: silver;
+            margin-left: 20px;
+            text-align: justify;
+
+        }
+
+        .box{
+           /* margin-bottom: 20px; */
+           /* margin-top: 50px; */
+           margin: 100px 100px 50px;
+        }
+    </style>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/guojiadaxie1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/guojiadaxie2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/guojiadaxie3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/guojiadaxie4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/guojiadaxie5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/guojiadaxie6.jpg" alt=""></div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            //   autoplay:true,
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <div class="row beijing"></div>
+    </div>
+    <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"></div>
+            <div class="thumbnail"></div>
+                <img src="http://5b0988e595225.cdn.sohucs.com/images/20171222/014e9fc392984995bb10bf8b40385bb0.</div>
+    jpeg" alt="..."></div>
+                <div class="caption"></div>
+                    <h3>颐和园</h3></div>
+                    <p class='introduce'>阿斯顿发斯蒂芬阿斯蒂芬</p></div>
+                    <p></div>
+                        <a href="#" class="btn btn-default" role="button">查看详情</a></div>
+                    </p></div>
+                </div></div>
+            </div></div>
+        </div> -->
+    </div>
+    </div>
+    </div>
+    <div class="row anhui"></div>
+    </div>
+    <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"></div>
+            <div class="thumbnail"></div>
+                <img src="http://5b0988e595225.cdn.sohucs.com/images/20171222/014e9fc392984995bb10bf8b40385bb0.</div>
+    jpeg" alt="..."></div>
+                <div class="caption"></div>
+                    <h3>颐和园</h3></div>
+                    <p>阿斯顿发斯蒂芬阿斯蒂芬</p></div>
+                    <p></div>
+                        <a href="#" class="btn btn-default" role="button">查看详情</a></div>
+                    </p></div>
+                </div></div>
+            </div></div>
+        </div> -->
+    </div>
+    </div>
+    </div>
+    <div class="tonggao">
+        <img src="./images/tonghao.png" alt="" style="float: left;">
+        <ul>
+            <a href="http://www.ouchn.cn/info?id=575715cf-4f4d-4183-accf-4edabf9747ca">
+                <li>【当周】2021春季学期网上教学（教研）活动...
+                    <span>2021-06-13</span>
+                </li>
+
+            </a>
+            <a href="http://www.ouchn.cn/info?id=53c56f2e-7b1c-4961-b7d3-e288826cca9d">
+                <li>精彩回放 | 国家开放大学“英语课程思政与教...<span>2021-05-31</span></li>
+            </a>
+        </ul>
+        <ol>
+            <a href="http://www.ouchn.cn/info?id=b8ece4e2-42ba-4693-b929-64d6b81d3a48">
+                <li>【总表】2021春季学期网上教学（教研）活动...
+                    <span>2021-06-13</span>
+                </li>
+            </a>
+            <a href="http://www.ouchn.cn/info?id=edad254d-980e-4cfe-bc2b-de9f572f99ba">
+                <li>
+                    精彩回放 | 国家开放大学“英语课程思政与教...
+                    <span>2021-06-07</span>
+                </li>
+            </a>
+        </ol>
+        <a href="http://www.ouchn.cn/infona">
+            <p>更多</p>
+        </a>
+    </div>
+    <div class="nav">
+        <h2>杰出校友</h2>
+        <p>每年都有近百万学子加入国开大家庭，远程学习改变人生，请听他们的故事：谭建荣不断探索科研教学双获丰收，唐江澎成为受人尊敬的<br>校长，方继凡带领村民脱贫致富…</p>
+        <ul>
+            <a
+                href="https://mp.weixin.qq.com/s?__biz=MzkxNzE3Mzg0Mg==&mid=100000259&idx=1&sn=cc5466dca1df8e43d0e1f4406bbfb657&chksm=4145e13e763268286d55b662acaeeba79ac7dc18955bdc8c134786af9be36e133a5757f4d6dd#rd">
+                <img src="http://www.ouchn.cn/sites/default/files/2021-03/%E8%B0%AD-%E5%B0%81%E9%9D%A2_1.png" alt="">
+                <li>谭建荣-中国工程院院士</li>
+                <span>在电大取得机械工程、电子工程两个专业的学历，在学<br>
+                    术的道路上不断攀登，成为中国工程院院士。</span>
+            </a>
+            <a href="http://oss.ouchn.cn/ouconline/%E5%AD%A6%E4%B9%A0%E7%BD%91/%E5%94%90%E6%B1%9F%E6%BE%8E.mp4">
+                <img src="http://www.ouchn.cn/sites/default/files/2021-03/%E5%94%90%E5%B0%81%E9%9D%A2.png" alt=""
+                    style="height: 233px;">
+                <li>唐江澎-全国政协委员</li>
+                <span>普通高校的大门没有向他打开，三年刻苦自学，取得电<br>大大专学历，从中学教师干起，成为百年名校校长。</span>
+            </a>
+            <a href="http://oss.ouchn.cn/zongbu/xxwsy/xueshenggushi/video1111.mp4">
+                <img src="http://www.ouchn.cn/sites/default/files/2021-03/%E6%96%B9%E7%BB%A7%E5%87%A1.png" alt="">
+                <li>方继凡-十大杰出村官</li>
+                <span>电大“一村一名大学生”首批学员，学习农业经济管理<br>走上“开挂”人生，带领家乡振兴茶业脱贫致富。</span>
+            </a>
+        </ul>
+    </div>
+    <div class="box">
+        <a href="http://callcenter.ouchn.cn/"><img src="http://www.ouchn.cn/themes/newgk/images/yuanchengjiedai.png" alt=""></a>
+    </div>
+    <div class="wrap footer" style="float: left;">
+        <p>国家开放大学 版权所有 <a href="https://beian.miit.gov.cn">京ICP备05064925号-6 京公网安备 11040202430135号</a><br />
+            技术支持热线：400-867-9660 学生服务热线：400-810-0090 <br />
+            技术支持：国开在线教育科技有限公司 服务邮箱：ouc-online@ouchn.edu.cn</p>
+    </div>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/layer/layer.js"></script>
+<script src="./js/ajax.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/cookie.js"></script>
+<script src="./js/checkLogin.js"></script>
+
+</html>
